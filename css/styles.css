@@ -1,0 +1,37 @@
+html, body {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul a.main {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+nav ul a.main:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+
+article {
+    text-align: center;
+    margin-top: 50px;
+}
